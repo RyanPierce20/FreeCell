@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Area">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Area.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Array&lt;T&gt;">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAAAAECAAAAAAAAAAAEEkAAABAAAAgAAAIgAA=</HashCode>
+      <FileName>Array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArrayStack&lt;T&gt;">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAEgAAAAAAAAABQAACAAAAAAAQgCCAASAE=</HashCode>
+      <FileName>ArrayStack.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_stack" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Board">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAKAAICAAgAAAACAAAAAIAAAIAAAgACAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_freecells" />
+      <Field Name="_homecells" />
+      <Field Name="_playcells" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Card">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAgCAAAQAAEARAAEQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_rank" />
+      <Field Name="m_suit" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Deck">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARoBAAAEAA=</HashCode>
+      <FileName>Deck.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_deck" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DoubleLinkedList&lt;T&gt;">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAAAAIAAgQQBAAAFAIAAAEAAgQSAAAAAiAAAAQAA=</HashCode>
+      <FileName>DoubleLinkedList.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_head" />
+      <Field Name="m_tail" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Exception">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAEAAAAABAAABgAAAgAAA=</HashCode>
+      <FileName>Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeArea">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAgAAQAAAAAABAAAAAAgACAAAAA=</HashCode>
+      <FileName>FreeArea.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_freeareacells" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeArea">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAiAAAAAAA=</HashCode>
+      <FileName>HomeArea.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_homeareacells" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LLStack&lt;T&gt;">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEgAAAAAAAQAAABAKAAAAAAAQgAAAASAA=</HashCode>
+      <FileName>LLStack.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_list" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Node&lt;T&gt;">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABEAAAIgAAAIAAACAAAAAgAAIAAAAAAgEAAAA=</HashCode>
+      <FileName>Node.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_next" />
+      <Field Name="m_previous" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayArea">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAAAAAAQAIAIAAAAAAAAQoAAAAAAA=</HashCode>
+      <FileName>PlayArea.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playareacells" />
+      <Field Name="m_deck" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="Rank">
+    <Position X="2.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAgggEAAAAAECIAAAAAFBAAAAAAAAAgAAEE=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Suit">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAKA=</HashCode>
+      <FileName>Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
